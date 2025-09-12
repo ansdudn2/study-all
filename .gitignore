@@ -1,8 +1,14 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Build outputs
+out/
+build/
+target/
+.gradle/
+
+# OS
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
