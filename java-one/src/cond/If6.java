@@ -3,7 +3,7 @@ package cond;
 public class If6 {
     public static void main(String[] args) {
         int price = 20;
-        int age = 10;
+        int age = 20;
         int discount = 0;
 
         if (price >= 10000) {
