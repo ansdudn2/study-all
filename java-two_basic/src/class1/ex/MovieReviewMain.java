@@ -10,12 +10,13 @@ public class MovieReviewMain {
         mr2.title = "어바웃 타임";
         mr2.review = "인생 시간 영화!";
 
-        MovieReview[]movieReviews = new MovieReview[2];
+        MovieReview[] movieReviews = new MovieReview[2];
         movieReviews[0] = mr1;
         movieReviews[1] = mr2;
 
-        for ( MovieReview mr : movieReviews) {
-            System.out.println("영화 제목: " + mr.title + ", 리뷰: " + mr.review);}
+        for (MovieReview mr : movieReviews) {
+            System.out.println("영화 제목: " + mr.title + ", 리뷰: " + mr.review);
+        }
 
     }
 }
