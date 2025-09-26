@@ -8,7 +8,7 @@ public class MethodChange1 {
         System.out.println("메서드 호출 후: a = " + a);
 
     }
-    public static void changePrimitive(int x) {
+    static void changePrimitive(int x) {
         x = 20;
     }
 }
