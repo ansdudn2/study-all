@@ -13,7 +13,7 @@ public class AccessData {
         System.out.println("defaultMethod 호출" + defaultField);
     }
 
-    public void privateMethod(){
+    private void privateMethod(){
         System.out.println("privateMethod 호출" + privateField);
     }
 
@@ -23,7 +23,8 @@ public class AccessData {
         defaultField = 200;
         privateField = 300;
         publicMethod();
+        defaultMethod();
         privateMethod();
-        innerAccess();
+
     }
 }
