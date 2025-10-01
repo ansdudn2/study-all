@@ -9,7 +9,7 @@ public class Speaker {
     }
 
     void volumeup() {
-        if (volume > 100) {
+        if (volume >= 100) {
             System.out.println("음량을 증가할 수 없습니다. 최대 음량입니다.");
         } else {
             volume += 10;
