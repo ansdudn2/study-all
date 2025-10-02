@@ -14,7 +14,7 @@ public class JavaMemoryMain1 {
         System.out.println("method1 end");
     }
 
-    static void method2(int m1){
+    static void method2(int m2){
         System.out.println("method2 start");
         System.out.println("method2 end");
 
