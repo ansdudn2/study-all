@@ -1,6 +1,6 @@
 package extends1.super1;
 
-public class child extends Parent {
+public class Child extends Parent {
     public String value = "child";
     
     @Override
