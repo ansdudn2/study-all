@@ -26,5 +26,6 @@ public class soundFlyMain {
     private static void FlyAnimal(Fly fly) {
         System.out.println("날기 테스트 시작");
         fly.fly();
+        System.out.println("날기 테스트 종료");
     }
 }
