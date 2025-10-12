@@ -2,16 +2,16 @@ package lang.immutable.address;
 
 public class MemberV2 {
 
-    private System name;
+    private String name;
 
     private ImmutableAddress address;
 
-    public MemberV2(System name, ImmutableAddress address) {
+    public MemberV2(String name, ImmutableAddress address) {
         this.name = name;
         this.address = address;
     }
 
-    public System getName() {
+    public String getName() {
         return name;
     }
 
