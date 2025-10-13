@@ -5,5 +5,7 @@ public class TestString1 {
         String url = "http://www.example.com";
 
         // 코드 작성
+        boolean result = url.startsWith("http://");
+        System.out.println(result);
     }
 }
