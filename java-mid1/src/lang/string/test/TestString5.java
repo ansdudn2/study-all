@@ -5,5 +5,11 @@ public class TestString5 {
         String str = "hello.txt";
         String ext = ".txt";
         // 코드 작성
+        int extIndex = str.indexOf(ext);
+
+        String fileName = str.substring(0, extIndex);
+        String extName = str.substring(extIndex);
+        System.out.println("fileName = " + fileName);
+        System.out.println("extName = " + extName);
     }
 }
