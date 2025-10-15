@@ -5,9 +5,13 @@ public class ClassGrade {
     public static final ClassGrade GOLD = new ClassGrade(20);
     public static final ClassGrade DIAMOND = new ClassGrade(30);
 
-    private final int discountPercentage;
+    private final int discountPercent;
 
-    public ClassGrade(int discountPercentage) {
-        this.discountPercentage = discountPercentage;
+    public ClassGrade(int discountPercent) {
+        this.discountPercent = discountPercent;
+    }
+
+    public int getDiscountPercent() {
+        return discountPercent;
     }
 }
