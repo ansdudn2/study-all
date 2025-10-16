@@ -6,6 +6,7 @@ import java.time.temporal.ChronoField;
 
 public class IsSupportedMain1 {
     public static void main(String[] args) {
+        // UnsupportedTemporalTypeException 발생
         LocalDate now = LocalDate.now();
         int minute = now.get(ChronoField.SECOND_OF_MINUTE);
         System.out.println("minute = " + minute);
