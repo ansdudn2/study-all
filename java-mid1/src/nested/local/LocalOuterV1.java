@@ -21,4 +21,8 @@ public class LocalOuterV1 {
         LocalPrinter printer = new LocalPrinter();
         printer.printData();
     }
+    public static void main(String[] args) {
+        LocalOuterV1 localOuter = new LocalOuterV1();
+        localOuter.process(2);
+    }
 }
