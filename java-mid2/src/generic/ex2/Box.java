@@ -1,4 +1,4 @@
-package generic.animal;
+package generic.ex2;
 
 public class Box<T> {
     private T value;
