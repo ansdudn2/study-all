@@ -3,11 +3,11 @@ package generic.ex1;
 public class ObjectBox {
     private Object value;
 
-    public void setValue(Object object) {
+    public void set(Object object) {
         this.value = object;
     }
 
-    public Object getValue() {
+    public Object get() {
         return value;
     }
 }
