@@ -4,11 +4,11 @@ public class IntegerBox {
 
     private Integer value;
 
-    public void setValue(Integer value) {
+    public void set(Integer value) {
         this.value = value;
     }
 
-    public Integer getValue() {
+    public Integer get() {
         return value;
     }
 }
