@@ -18,7 +18,7 @@ public class AnimalHospitalV2<T> {
         //animal.sound();
     }
 
-    public T bigger(T target){
+    public T getBigger(T target){
         // 컴파일 오류
         //return animal.getSize() > target.getSize() ? animal : target;
         return null;

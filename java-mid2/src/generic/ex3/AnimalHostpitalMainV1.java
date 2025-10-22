@@ -24,7 +24,7 @@ public class AnimalHostpitalMainV1 {
 
         // 문제2: 개 타입 반환, 캐스팅 필요
         dogHospital.set(dog);
-        Dog biggerDog = (Dog) dogHospital.bigger(new Dog("멍멍이2", 200));
+        Dog biggerDog = (Dog) dogHospital.getBigger(new Dog("멍멍이2", 200));
         System.out.println("biggerDog = " + biggerDog);
     }
 }

@@ -16,7 +16,7 @@ public class AnimalHospitalV1 {
         animal.sound();
     }
 
-    public Animal bigger(Animal target){
+    public Animal getBigger(Animal target){
         return animal.getSize() > target.getSize() ? animal : target;
     }
 }

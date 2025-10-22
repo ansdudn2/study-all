@@ -16,7 +16,7 @@ public class AnimalHospitalV3<T extends Animal> {
         animal.sound();
     }
 
-    public T bigger(T target){
+    public T getBigger(T target) {
         return animal.getSize() > target.getSize() ? animal : target;
     }
 }
