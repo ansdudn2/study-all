@@ -28,9 +28,11 @@ public class ArrayMain2 {
         addLast(arr, 5);
         System.out.println(Arrays.toString(arr));
     }
-
-    private static void addLast(int[] arr, int newValue) {
-        arr[arr.length - 1] = newValue;
+    private static void addFirst(int[] arr, int newValue) {
+        for (int i = arr.length - 1; i > 0; i--) {
+            arr[i] = arr[i - 1];
+        }
+        arr[0] = newValue;
     }
 
     private static void addAtIndex(int[] arr, int index, int newValue) {
@@ -40,10 +42,8 @@ public class ArrayMain2 {
         arr[index] = newValue;
     }
 
-    private static void addFirst(int[] arr, int newValue) {
-        for (int i = arr.length - 1; i > 0; i--) {
-            arr[i] = arr[i - 1];
-        }
-        arr[0] = newValue;
+
+    private static void addLast(int[] arr, int newValue) {
+        arr[arr.length - 1] = newValue;
     }
 }
