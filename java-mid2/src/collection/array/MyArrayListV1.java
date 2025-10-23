@@ -30,9 +30,9 @@ public class MyArrayListV1 {
     }
 
     public Object set(int index, Object element) {
-        Object objValue = get(index);
+        Object oldValue = get(index);
         elementData[index] = element;
-        return objValue;
+        return oldValue;
     }
 
     public int indexOf(Object o) {
