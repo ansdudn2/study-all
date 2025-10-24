@@ -10,7 +10,7 @@ public class Node {
     }
 
     /*
-        //IDE 생성 toString()
+        // IDE 생성 toString()
         @Override
         public String toString() {
             return "Node{" +
