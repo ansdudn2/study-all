@@ -44,6 +44,22 @@ public class MyLinkedListV2 {
         return oldValue;
     }
 
+    // 추가 코드
+    public Object remove(int index) {
+        Node removeNode = getNode(index);
+        Object removedItem = removeNode.item;
+        if (index == 0) {
+            first = removeNode.next;
+        } else {
+            Node prev = getNode(index - 1);
+            prev.next = removeNode.next;
+        }
+        removeNode.item = null;
+        removeNode.next = null;
+        size--;
+        return removedItem;
+    }
+
     public Object get(int index) {
         Node node = getNode(index);
         return node.item;
@@ -73,7 +89,7 @@ public class MyLinkedListV2 {
 
     @Override
     public String toString() {
-        return "MyLinkedListV1{" +
+        return "MyLinkedListV2{" +
                 "first=" + first +
                 ", size=" + size +
                 '}';
