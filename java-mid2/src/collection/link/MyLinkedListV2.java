@@ -28,6 +28,7 @@ public class MyLinkedListV2 {
     public void add(int index, Object e) {
         Node newNode = new Node(e);
         if (index == 0) {
+            newNode.next = first;
             first = newNode;
         } else {
             Node prev = getNode(index - 1);
