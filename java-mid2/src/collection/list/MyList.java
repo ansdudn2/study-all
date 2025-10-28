@@ -1,4 +1,4 @@
-package collection.link;
+package collection.list;
 
 public interface MyList<E> {
 
