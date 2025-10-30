@@ -20,6 +20,6 @@ public class HashAndEqualsMain1 {
         MemberNoHashNoEq searchValue = new MemberNoHashNoEq("A");
         System.out.println("searchValue.hashCode() = " + searchValue.hashCode());
         boolean contains = set.contains(searchValue);
-        System.out.println("countains = " + contains);
+        System.out.println("contains = " + contains);
     }
 }
