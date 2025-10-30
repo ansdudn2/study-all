@@ -11,7 +11,6 @@ public class MyHashSetV2Main1 {
         set.add("SET");
         System.out.println(set);
 
-        // 검색
         System.out.println("A.hashCode() = " + "A".hashCode());
         System.out.println("B.hashCode() = " + "B".hashCode());
         System.out.println("AB.hashCode() = " + "AB".hashCode());
@@ -20,6 +19,6 @@ public class MyHashSetV2Main1 {
         // 삭제
         String searchValue = "SET";
         boolean result = set.contains(searchValue);
-        System.out.println("set.contains( " + searchValue + ") = " + result);
+        System.out.println("set.contains(" + searchValue + ") = " + result);
     }
 }
