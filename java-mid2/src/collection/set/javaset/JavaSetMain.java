@@ -19,7 +19,7 @@ public class JavaSetMain {
 
         Iterator<String> iterator = set.iterator();
         while (iterator.hasNext()) {
-            System.out.println(iterator.next() + " ");
+            System.out.print(iterator.next() + " ");
         }
         System.out.println();
     }
