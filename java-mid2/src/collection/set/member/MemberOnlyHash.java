@@ -14,7 +14,6 @@ public class MemberOnlyHash {
         return id;
     }
 
-
     @Override
     public int hashCode() {
         return Objects.hashCode(id);
