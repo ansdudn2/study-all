@@ -1,0 +1,6 @@
+package collection.map.test.cart;
+
+public class Product {
+    private String name;
+    private int price;
+}
