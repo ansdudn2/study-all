@@ -1,6 +1,8 @@
 package collection.map.test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ItemPriceTest {
@@ -12,5 +14,12 @@ public class ItemPriceTest {
         map.put("딸기", 1000);
 
         // 코드 작성
+        List<String> list = new ArrayList<>();
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if (entry.getValue() == 1000) {
+                list.add(entry.getKey());
+            }
+        }
+        System.out.println(list);
     }
 }
