@@ -22,7 +22,7 @@ public class JavaMapMain {
 
         while (iterator.hasNext()) {
             String key = iterator.next();
-            System.out.println(key + " = " + map.get(key) + " ");
+            System.out.print(key + " = " + map.get(key) + " ");
         }
         System.out.println();
     }
