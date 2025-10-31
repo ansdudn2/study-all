@@ -1,5 +1,8 @@
 package collection.map.test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CommonKeyValueSum1 {
     public static void main(String[] args) {
         Map<String, Integer> map1 = new HashMap<>();
@@ -13,5 +16,13 @@ public class CommonKeyValueSum1 {
         map2.put("D", 6);
 
         // 코드 작성
+        Map<String, Integer> result = new HashMap<>();
+
+        for (String key : map1.keySet()) {
+            if (map2.containsKey(key)) {
+                result.put(key, map1.get(key) + map2.get(key));
+            }
+        }
+        System.out.println(result);
     }
 }
