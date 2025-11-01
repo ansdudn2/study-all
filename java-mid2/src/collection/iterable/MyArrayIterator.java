@@ -2,12 +2,12 @@ package collection.iterable;
 
 import java.util.Iterator;
 
-public class MyArrayIterater implements Iterator<Integer> {
+public class MyArrayIterator implements Iterator<Integer> {
 
     private int currentIndex = -1;
     private int[] targetArr;
 
-    public MyArrayIterater(int[] targetArr) {
+    public MyArrayIterator(int[] targetArr) {
         this.targetArr = targetArr;
     }
 
