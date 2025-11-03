@@ -7,8 +7,8 @@ public class InnerRunnableMainV1 {
         log("main() start");
 
         Runnable runnable = new MyRunnable();
-        Thread thread1 = new Thread(runnable);
-        thread1.start();
+        Thread thread = new Thread(runnable);
+        thread.start();
 
         log("main() end");
     }

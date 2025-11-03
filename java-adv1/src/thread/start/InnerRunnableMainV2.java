@@ -12,8 +12,8 @@ public class InnerRunnableMainV2 {
                 log("run()");
             }
         };
-        Thread thread1 = new Thread(runnable);
-        thread1.start();
+        Thread thread = new Thread(runnable);
+        thread.start();
 
         log("main() end");
     }
